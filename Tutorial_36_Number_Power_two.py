@@ -6,6 +6,6 @@ if n&(n-1)==0:
     print("{} is power of two ".format(n))
     print(f"{n} is {zeros} power of 2 ")
     print(n," = ",2,"^",zeros)
-else:
+else:   
     print(f"{n} is not power of two ")
 
