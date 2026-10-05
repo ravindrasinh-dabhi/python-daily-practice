@@ -1,3 +1,4 @@
+#Python Program to Find Product of Two Numbers using Recursion
 def product(a,b):
     if b == 0:
         return 0
