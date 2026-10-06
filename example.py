@@ -1,5 +1,3 @@
-n=int(input("enter the number :  "))
-for i in range(2,n+1):
-    if n%i==0:
-        print(i)
-        break
+m={"a":1,"b":2,"c":3}
+n={k:v*2 for k , v in m.items()}
+print(n)
