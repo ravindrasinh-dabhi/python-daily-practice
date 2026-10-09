@@ -1,3 +1,4 @@
+#pyhton program to print lft side right angle pattern
 column=int(input("Enter the column : "))
 for i in range(1,column+1):
     for space in range(1,column-i+1):
