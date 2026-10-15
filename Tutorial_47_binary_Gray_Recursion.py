@@ -1,4 +1,4 @@
-
+# Python Program to Generate Gray Codes using Recursion
 s = input("Enter the Binary number: ")
 
 def binary_to_gray(i):
