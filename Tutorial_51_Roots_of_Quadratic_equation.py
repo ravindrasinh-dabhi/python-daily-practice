@@ -1,3 +1,4 @@
+# This is a Python Program to find the roots of an equation.
 import math as m 
 print("Equation form : ax^2+bx+c")
 a=int(input("Enter the Cofficent of x^2 : "))
