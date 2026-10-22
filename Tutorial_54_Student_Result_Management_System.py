@@ -32,7 +32,7 @@ for i in range(1,6):
    mark=float(input(f"Enter the marks of {sub}"))
    if mark<0 or mark>100:
      print("Enter valid marks")
-     break
+     
    else:
       marks.append(mark)
  total_obtained=sum(marks)
