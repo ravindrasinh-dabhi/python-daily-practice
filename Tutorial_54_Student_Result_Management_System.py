@@ -24,7 +24,7 @@ def grade_calculation(x):
 
 
 students={}
-for i in range(1,2):
+for i in range(1,6):
  name= input(f"Enter {i} stundet name : ")
 
  marks=[]
@@ -54,6 +54,14 @@ for name,detail in students.items():
   print(f"Total marks : {sum(detail["marks"])}/300")
   print(f"Percentage : {detail["percentage"]:.2f}")
   print(f"Grade : {detail["grade"]}")
+
+
+print("\n=== Topper Student ===")
+topper_name = max(students,key=lambda name: students[name]["percentage"])
+print(f"Name: {topper_name}")
+print(f"Percentage: {students[topper_name]['percentage']:.2f}%")
+print(f"Grade: {students[topper_name]['grade']}")
+
 
 
 
