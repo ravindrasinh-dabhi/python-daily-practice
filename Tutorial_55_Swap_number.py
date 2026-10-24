@@ -6,3 +6,5 @@ b=a-b
 a=a-b
 print(f"now the first number is {a} ")
 print(f"second number is {b}")
+
+# form this day python course is finished at neso academy so we will do 1 tutorial in 2 or 4 days
