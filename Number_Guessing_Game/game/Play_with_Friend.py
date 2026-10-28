@@ -2,8 +2,8 @@ from .logic import check_guess
 def play_with_friend():
     print("\nYou selected to play with friend")
 
-    selector=input("\nEnter the number Selector name : ")
-    guesser=input("Enter the number Guesser name : ")
+    selector=input("\nEnter the Selector name : ")
+    guesser=input("Enter the Guesser name : ")
     print("\nFirst select the Range of the number")
     starting=int(input("Enter the starting range : "))
     ending=int(input("Enter the ending range : "))
@@ -46,12 +46,3 @@ def play_with_friend():
         else:
             print(result)
             print(f"Attempts so far: {attempts}")
-
-
-
-
-
-
-
-    
-            
