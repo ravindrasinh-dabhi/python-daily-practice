@@ -19,4 +19,5 @@ def type_of_consumer_choise():
     else:
         print("Invalid choice. Please try again.")
         return type_of_consumer_choise()
+        
 
